@@ -510,13 +510,21 @@ form button {
 
 @media screen and (max-width: 600px) {
   .container-hero {
-    min-height: 50vh;
+    font-size: 0.9em;
+    min-height: 70vh;
+    text-align: center;
   }
-  .container-title img {
-    max-width: 100%;
+  .container-content{
+    margin-left: 20px;
   }
+
+  .container-hero p {
+    width: 100%;
+  }
+
+
   .container-img {
-    max-width: 50%;
+    max-width: 45%;
   }
 
   .categorias h2 {
