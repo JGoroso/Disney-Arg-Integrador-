@@ -46,6 +46,7 @@ img {
   justify-content: space-around;
   align-items: center;
   background-color: transparent;
+  padding: 0 2px 0 2px;
 }
 
 .header .container-title {
@@ -61,21 +62,21 @@ img {
 }
 
 .icon-menu {
-  font-size: 1.5em;
+  font-size: 1em;
   display: block;
-  padding: 10px 5px;
+  padding: 10px 2px;
   color: #fafafa;
 }
 
 .shop-btn {
-  font-size: 1.5em;
-  padding: 10px;
+  font-size: 1em;
+  padding: 5px;
   color: #fafafa;
 }
 
 .user-btn {
-  font-size: 1.5em;
-  padding: 10px;
+  font-size: 1em;
+  padding: 5px;
   color: #fafafa;
 }
 
@@ -90,20 +91,25 @@ img {
   display: flex;
   justify-content: center;
 }
+.container-img {
+  width: 50%;
+}
 
 .container-img img {
   margin-top: 45%;
-  max-width: 120%;
+  max-width: 130%;
 }
 
 .container-content {
+  width: 60%;
   margin-top: 25%;
-  margin-left: 20px;
+  margin-left: 40px;
 }
 
 .container-content span {
   font-family: "gothamlight";
   color: #fafafa;
+  width: 60%;
 }
 
 .container-content h1 {
@@ -118,6 +124,7 @@ img {
   font-weight: 300;
   font-family: "Poppins";
   color: #fafafa;
+  width: 70%;
 }
 
 .btn-hero {
