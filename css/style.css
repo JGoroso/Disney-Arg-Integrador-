@@ -411,7 +411,6 @@ i {
 input,
 textarea {
   background: none;
-  color: #fafafa;
   font-size: 18px;
   padding: 10px 10px 10px 5px;
   display: block;
@@ -579,7 +578,7 @@ form button {
     background: none;
     border: none;
     font-size: 1em;
-    padding: 0 20px;
+    padding: 0 10px;
     cursor: pointer;
     display: inline-block;
   }
@@ -965,12 +964,10 @@ form button {
     background-size: cover;
   }
 
-
-
   i {
     font-size: 2em;
   }
-  .nav-menu-item{
+  .nav-menu-item {
     font-size: 2em;
   }
   .container-menu {
@@ -1055,7 +1052,7 @@ form button {
     font-size: 0.5em;
   }
 
-  .product{
+  .product {
     font-size: 2em;
   }
 
