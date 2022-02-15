@@ -31,6 +31,7 @@ body {
   background-color: #fafafa;
   min-height: 100vh;
   font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
 }
 img {
   max-width: 100%;
@@ -525,27 +526,26 @@ form button {
 
   .nav-menu {
     position: fixed;
-    right: 100%;
     transition: right 0.3s;
-    top: 60px;
-    width: 80%;
+    height: auto;
+    width: 100%;
+
     display: flex;
+    right: 100%;
     flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
+    align-items: center;
+    justify-content: flex-start;
     padding: 20px 0;
     background-color: #9dcb45;
-    height: calc(100vh - 60px);
-    overflow-y: auto;
   }
 
   .nav-menu_visible {
-    right: 20%;
+    right: 0%;
   }
 
   .nav-menu-item {
-    line-height: 80px;
-    font-size: 2em;
+    line-height: 40px;
+    font-size: 1em;
     text-transform: uppercase;
     font-family: "Poppins", sans-serif;
   }
@@ -584,7 +584,7 @@ form button {
   }
 
   .sullivan {
-    max-width: 50%;
+    max-width: 35%;
     display: inline;
   }
 
